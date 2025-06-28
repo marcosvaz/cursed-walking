@@ -22,7 +22,6 @@ services:
     volumes:
       - volume:/data
       - ./logs:/data/logs
-      - ./downloads:/downloads
       - ./mods:/mods
     restart: 'on-failure:1'
     depends_on:
